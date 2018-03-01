@@ -1,4 +1,10 @@
+html {
+  font-size: 8px;
+  cursor: default;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #1b1c17;
 }

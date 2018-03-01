@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.tableStyle {
+  border-collapse: collapse;
+}
+
+.sideLabel {
+  position: absolute;
+  color: #fbed4d;
+  font-family: Lobster;
+  font-size: 11px;
+  top: 0;
+  left: 3px;
+  text-shadow: 2px 2px 0px rgba(235,0,5,0.75);
+}
+
+.sideStyleBlue td,
+.sideStyleGreen td,
+.sideStyleYellow td,
+.sideStyleWhite td,
+.sideStyleRed td,
+.sideStyleOrange td {
+  width: 16px;
+  height: 14px;
+}
+
+.sideStyleBlue td {
+  background-color: #2271DC;
+}
+
+.sideStyleGreen td {
+  background-color: yellow;
+
+}
+.sideStyleYellow td {
+  background-color: #22B222;
+}
+
+.sideStyleWhite td {
+  background-color: #F5F5F5;
+}
+
+.sideStyleRed td {
+  background-color: #CC0D0D;
+}
+
+.sideStyleOrange td {
+  background-color: #E6400C;
+}
+
+.Logo * {
+	box-sizing: border-box;
+}
+
+.Logo {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+  margin: 0;
+  padding: 0;
+  top: 12px;
+  left: 16px;
+	perspective: 500px;
+  z-index: 1100;
+}
+
+.cube {
+	width: inherit;
+	height: inherit;
+	transform-style: preserve-3d;
+  transform: rotateY(45deg) rotateX(45deg);
+}
+
+.side {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	border: 1px solid white;
+  box-shadow: 0 0 25px rgba(190,255,128,0.4);
+}
+
+.side-red {
+  transform: translateZ(8px);
+}
+
+.side-orange {
+  transform: rotateY(180deg) translateZ(8px);
+}
+
+.side-white {
+  transform: rotateY(90deg) translateZ(8px);
+}
+
+.side-yellow {
+  transform: rotateY(-90deg) translateZ(8px);
+}
+
+.side-green {
+  transform: rotateX(90deg) translateZ(8px);
+}
+
+.side-blue {
+  transform: rotateX(-90deg) translateZ(8px);
+}
